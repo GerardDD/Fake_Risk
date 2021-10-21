@@ -15,7 +15,8 @@
 ## Project Description 
 2-player version of "Risk" Boardgame. As a fan of boardgames I picked Risk because is a classic, although the game I wrote is loosely based on it.
 ***
-No additional installation is required, just run the .py file with python on the command line
+No additional installation is required, just run the .py file with python on the command line.
+Current stable version of the game is 1_1.py
 
 ## Rules
 Describe briefly the rules of the game you chose.
