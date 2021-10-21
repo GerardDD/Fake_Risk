@@ -418,7 +418,7 @@ of troops + a random 1d6 dice roll\n
     while True:
         print(f'CURRENT ROUND IS {newGame.round} \n')
         print('CURRENT STATUS OF THE WORLD: \n')
-        Regions.checkWorld(newGame.world)
+        Regions.checkWorld_2(newGame.world)
         print(newGame.listAlias)
         print('player 2 always recruits first!\n')
         player2.recruit(newGame.world)
@@ -438,7 +438,7 @@ of troops + a random 1d6 dice roll\n
         else:
             pass
         print('CURRENT STATUS OF THE WORLD: \n')
-        Regions.checkWorld(newGame.world)
+        Regions.checkWorld_2(newGame.world)
         print('PLAYER 2 TURN: \n')
         while True:
             print(newGame.listAlias)
@@ -453,7 +453,7 @@ of troops + a random 1d6 dice roll\n
         print('\n\n\n')
         input('Player 1: Press enter to start new round\n')
         
-    Regions.checkWorld(newGame.world)
+    Regions.checkWorld_2(newGame.world)
     newGame.checkWinner(player1,player2)
 
 if __name__ == '__main__':
