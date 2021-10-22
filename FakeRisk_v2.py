@@ -302,17 +302,17 @@ class Player:
             base_attack = self.currentSel.power
             base_defense = self.currentTar.troopsRegion
 
-            input = 'you try to attack! (press Enter to continue)'
-            input = 'you roll a dice! (press Enter to continue)'
+            input('you try to attack! (press Enter to continue)')
+            input('you roll a dice! (press Enter to continue)')
             current_roll = rd.randint(1,6)
-            input = f'you rolled a {current_roll} (press Enter to continue)'
+            input(f'you rolled a {current_roll} (press Enter to continue)')
             final_attack = current_roll + base_attack
             print(f'Your total attack is {base_attack + current_roll} \n')
 
-            input = "now it's time for the opponent to defend..(press Enter to continue)"
-            input = "opponent rolls a dice.. (press Enter to continue)"
+            input("now it's time for the opponent to defend..(press Enter to continue)")
+            input("opponent rolls a dice.. (press Enter to continue)")
             current_roll = rd.randint(1,6)
-            input = f' opponent rolled a {current_roll} (press Enter to continue)'
+            input(f' opponent rolled a {current_roll} (press Enter to continue)')
             final_defense = base_defense + current_roll
             print(f'opponent total defense is {base_defense + current_roll} \n')
 
@@ -404,17 +404,17 @@ class IAPlayer(Player):
             base_attack = self.currentSel.power
             base_defense = self.currentTar.troopsRegion
 
-            input = 'you try to attack! (press Enter to continue)'
-            input = 'you roll a dice! (press Enter to continue)'
+            input('you try to attack! (press Enter to continue)')
+            input( 'you roll a dice! (press Enter to continue)')
             current_roll = rd.randint(1,6)
-            input = f'you rolled a {current_roll} (press Enter to continue)'
+            input(f'you rolled a {current_roll} (press Enter to continue)')
             final_attack = current_roll + base_attack
             print(f'Your total attack is {base_attack + current_roll} \n')
 
-            input = "now it's time for the opponent to defend..(press Enter to continue)"
-            input = "opponent rolls a dice.. (press Enter to continue)"
+            input("now it's time for the opponent to defend..(press Enter to continue)")
+            input("opponent rolls a dice.. (press Enter to continue)")
             current_roll = rd.randint(1,6)
-            input = f' opponent rolled a {current_roll} (press Enter to continue)'
+            input(f' opponent rolled a {current_roll} (press Enter to continue)')
             final_defense = base_defense + current_roll
             print(f'opponent total defense is {base_defense + current_roll} \n')
 
