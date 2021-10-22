@@ -13,10 +13,10 @@
 - [Links](#links)
 
 ## Project Description 
-2-player version of "Risk" Boardgame. As a fan of boardgames I picked Risk because is a classic, although the game I wrote is loosely based on it.
+2-player version (either versus IA opponent or human opponent) of "Risk" Boardgame. As a fan of boardgames I picked Risk because is a classic, although the game I wrote is loosely based on it.
 ***
 No additional installation is required, just run the .py file with python on the command line.
-Current stable version of the game is 1_1.py
+Current stable version of the game is v2.py
 
 ## Rules
 Describe briefly the rules of the game you chose.
@@ -39,9 +39,10 @@ I started the project by looking videos that explain Risk rules.
 Since it was kinda complex, I simplified the game ( less regions, a fixed number of rounds.. ).
 Then i wrote on paper the possible classes that the program should have.
 I started coding the game. Along the processes some ideas were scrapped off due to complexity or lack of time.
-I then created the first stable version of the game, so it's at least functional.
+I then created the first stable version of the game, so it was at least functional.
 I tested it and find some minor bugs and corrections.
-Then i prepared the presentation
+Then i prepared the presentation.
+As I still had some time, I addeded some aestethic upgrades to the game, such as a dynamic ASCII world map that reflects the current status of the world each turn.  
 
 ## Organization
 
